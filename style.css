@@ -1,0 +1,52 @@
+body {
+    color:black;
+    background-color:darkcyan;
+}
+
+.background {
+    background-color:lightslategray;
+    background-image: url("https://cdn.neow.in/news/images/uploaded/2017/10/1508225654_1507825798_call_of_cthulhu-09.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#new-game-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color:lightgray;
+    position:relative;
+    font-size:20px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 22px;
+    border-radius: 20px;
+    box-shadow: 0 6px darkgreen;
+}
+
+#new-game-button:hover {
+    box-shadow: 0 4px darkred;
+    top:2px;
+
+}
+
+#new-game-button:active {
+    box-shadow: 0 0 darkred;
+    top:6px;
+
+}
+
+#placeholder-section {
+    background-color:lightblue;
+
+
+}
+
+#placeholders {
+    letter-spacing: 6px;
+    font-size: 40px;
+    
+}
